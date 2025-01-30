@@ -11,8 +11,8 @@
 
     <!-- BOOTSTRAP 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-        </script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -24,15 +24,69 @@
 
 </head>
 
-<body class="my-4">
+<body>
+
+    <div class="herocontainer" style="--bg-image: url('burrowhero.jpg');">
+
+        <h1>Discover Joe Burrow's Game</h1>
+
+        <p>Dive into the story of a quarterback who redefined resilience and performance.</p>
+
+    </div>
 
     <div class="container">
 
         <div class="row">
 
-            <div class="col-4">
+            <div class="col-6">
 
-                <h1>Revenue</h1>
+                <h2>Steady Climb: Burrow's Passing Yard Growth</h2>
+
+                <div>
+                    <canvas id="LineChart"></canvas>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="col-6">
+
+                <p>From a promising rookie season cut short by injury to record-breaking performances, Burrow's
+                    journey is one of resilience and adaptation.</p>
+
+                <p>The line graph illustrates his remarkable recovery and subsequent growth, culminating in
+                    back-to-back seasons surpassing 4,500 passing yards.</p>
+
+                <p>This steady upward trend reflects not only Burrow's physical
+                    recovery but also his increasing command of the game and ability to execute high-level plays under
+                    pressure.</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-6">
+
+                <h2>Balancing Precision: Touchdowns and Interceptions</h2>
+
+                <p>The bar graph depicts a quarterback evolving 
+                    into one of the league's most strategic and calculated playmakers.</p>
+
+                <p>While his 2020 and 2023 season saw a dip on his stats, Burrow's resilience to bounce back when healthy is evident in the 
+                    2024 season with a career-best ratio of 43 touchdowns to just 9 interceptions.</p>
+
+                <p>This progression highlights his ability to read defences more effectively, make smarter decisions, and deliver 
+                    precision passes that secure points without unnecessary risks.</p>
+
+            </div>
+
+
+            <div class="col-6">
 
                 <div>
                     <canvas id="BarChart"></canvas>
@@ -40,29 +94,43 @@
 
             </div>
 
-            <div class="col-4">
+    </div>
 
-                <h1>Languages</h1>
+    <div class="row">
 
-                <div>
-                    <canvas id="PieChart"></canvas>
-                </div>
+        <div class="col-6">
 
+            <h2>Precision Under Pressure: Breaking Down Burrow's Completion vs. Incompletion Rate</h2>
+
+            <div>
+                <canvas id="PieChart"></canvas>
             </div>
 
-            <div class="col-4">
 
-                <h1>Admission</h1>
-
-                <div>
-                    <canvas id="lineChart"></canvas>
-                </div>
-
-            </div>
 
         </div>
-        
+
+
+        <div class="col-6">
+
+            <p>Joe Burrow's career completion rate of 68.6% underscores his status as one of the most accurate and efficient quarterbacks in the NFL. From his rookie season to the present, Burrow has consistently demonstrated an exceptional ability to deliver 
+                the ball with precision, whether under pressure or in critical moments.</p>
+
+            <p>This remarkable percentage reflects his sharp decision-making, deep understanding of defensive schemes, and seamless chemistry with his receivers. By maintaining such a high completion rate, Burrow has proven his 
+                ability to sustain drives, control the tempo of games, and minimize turnovers.</p>
+
+            <p>His consistency in completing passes not only fuels the Bengals' offense but also solidifies his reputation as a reliable and elite quarterback. This statistic is a testament to his work ethic, 
+                football IQ, and ability to perform at the highest level.</p>
+
+        </div>
+
     </div>
+
+
+
+    </div>
+
+
 
 </body>
 
