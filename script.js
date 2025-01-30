@@ -2,7 +2,7 @@ function start() {
 
     // Bar Chart
 
-    const ctx = document.getElementById('myBarChart');
+    const ctx = document.getElementById('BarChart');
     new Chart(ctx, {
         type: 'bar',
         data: {
@@ -24,7 +24,7 @@ function start() {
 
     // Pie Chart
 
-    const pieCtx = document.getElementById('myPieChart');
+    const pieCtx = document.getElementById('PieChart');
     new Chart(pieCtx, {
         type: 'pie',
         data: {
@@ -40,7 +40,7 @@ function start() {
 
     // Line Chart
 
-    const lineCtx = document.getElementById('lineChart');
+    const lineCtx = document.getElementById('LineChart');
     new Chart(lineCtx, {
         type: 'line',
         data: {
