@@ -68,7 +68,7 @@ body {
 }
 
 .resized-chart {
-    width: 80% !important;
+    width: 70% !important;
     height: auto !important;
 }
 
@@ -101,3 +101,17 @@ p {
     font-style: normal;
     font-size: 20px !important;
 }
+
+.line {
+    width: 100%;
+    border: 2px solid #e73f11 !important; 
+    opacity: 1;
+}
+
+.shortmessage {
+    text-align: center;
+}
+
+.shortmessage p {
+    font-size: 20px !important;
+} 
