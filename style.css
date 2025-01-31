@@ -45,15 +45,11 @@ body {
     margin-top: 0;
 }
 
-.burroworange {
+.burrow {
     width: 100%;
     height: auto;
 }
 
-.burrowthrow {
-    width: 100%;
-    height: auto;
-}
 
 .centered-content {
     display: flex;
