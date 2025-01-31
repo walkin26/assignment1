@@ -1,3 +1,8 @@
+body {
+    background-color: #0c0c0c !important;
+    color: #efefef !important;
+}
+
 .herocontainer {
     position: relative;
     width: 100%;
@@ -36,4 +41,18 @@
 
 .herocontainer p {
     margin-top: 0;
+}
+
+p {
+    font-size: 24px;
+}
+
+.burroworange {
+    width: 100%;
+    height:auto;
+}
+
+.burrowthrow {
+    width: 100%;
+    height:auto;
 }

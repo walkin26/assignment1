@@ -7,15 +7,22 @@ $(document).ready(function() {
             labels: ['2020', '2021', '2022', '2023', '2024'],
             datasets: [{
                 label: 'Passing Yards',
-                data: [2688, 4611, 4475, 2309, 4918],
-                borderColor: '#fb4f14',
-                borderWidth: 2
+                borderColor: '#e73f11',
+                data: [2688, 4611, 4475, 2309, 4918]
             }]
         },
         options: {
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.5)' 
+                    }
+                },
+                x: {
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.5)'
+                    }
                 }
             }
         }
@@ -30,21 +37,27 @@ $(document).ready(function() {
             datasets: [{
                 label: 'Touchdowns',
                 data: [13, 34, 35, 15, 43],
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: '#e73f11',
                 borderWidth: 1
             }, {
                 label: 'Interceptions',
                 data: [5, 14, 12, 6, 9],
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgba(255, 99, 132, 1)',
+                backgroundColor: '#d9d9d9',
                 borderWidth: 1
             }]
         },
         options: {
             scales: {
                 y: {
-                    beginAtZero: true
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.5)' 
+                    }
+                },
+                x: {
+                    grid: {
+                        color: 'rgba(255, 255, 255, 0.5)' 
+                    }
                 }
             }
         }
@@ -60,14 +73,10 @@ $(document).ready(function() {
                 label: 'Completion Rate vs. Incompletion Rate',
                 data: [68.6, 31.4],
                 backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)'
+                    '#e73f11',
+                    '#d9d9d9'
                 ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)'
-                ],
-                borderWidth: 1
+                borderWidth: 0
             }]
         }
     });
